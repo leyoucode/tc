@@ -1,0 +1,8 @@
+platform :ios, '15.6'
+use_frameworks!
+
+target 'tc-ios' do
+  pod 'Alamofire'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'KeychainAccess'
+end
